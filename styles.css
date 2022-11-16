@@ -1,0 +1,323 @@
+    * {
+        margin: 0;
+    }
+    
+    .section-1 {
+        height: 70vh;
+        background-image: url('https://www.sendme.ng/banner.png');
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .heading-text {
+        text-align: center;
+        padding: 7rem;
+    }
+    
+    .search-input input {
+        height: 60px;
+        width: 400px;
+        border-radius: 7px;
+        border: none;
+        padding: 0rem 1rem;
+    }
+    
+    .search-input {
+        align-items: center;
+        align-self: center;
+    }
+    
+    .heading-text h1 {
+        font-size: 58px;
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+    
+    .search-input fa-brands fa-whatsapp {
+        height: 500px;
+    }
+    
+    .section-2 {
+        height: 50vh;
+        background-color: #f7fafc;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .whitecontainer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px;
+        justify-content: space-evenly;
+    }
+    
+    .image-container {
+        height: 144px;
+        width: 144px;
+        background-color: #e2e8f0;
+        border-radius: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .body2 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .wc1 {
+        margin: 30px 0 20px 0;
+    }
+    
+    .body2 p {
+        text-align: center;
+    }
+    
+    h3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    .price {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        color: brown;
+    }
+    
+    .middle-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5rem;
+    }
+    
+    .space {
+        margin-top: 2rem;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .first {
+        height: 144px;
+        width: 144px;
+        background-color: #e2e8f0;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .first img {
+        height: 64px;
+    }
+    
+    .third-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    .third-container-child {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .third-container-child img {
+        height: 90px;
+        margin: 50px 30px 0 20px;
+    }
+    
+    .third-container-child p {
+        font-size: 40px;
+        margin: 70px 0 30px 10px;
+    }
+    
+    .fourth-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+    
+    .fourth-container-child {
+        background-color: white;
+        height: 250px;
+        width: 500px;
+        box-shadow: 0px 10px 15px -3px rgb(0, 0, 0, 0.1), 0 4px 6px -2px rgb(0, 0, 0, 0.05);
+    }
+    
+    .fourth-child-container-1 {
+        display: flex;
+    }
+    
+    .fourth-child-container-1 img {
+        height: 30px;
+        margin-top: 40px;
+    }
+    
+    .fourth-child-container-1 p {
+        margin-top: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    
+    .pop {
+        display: flex;
+        margin-top: 80px;
+    }
+    
+    .fifth-container {
+        background-color: white;
+    }
+    
+    .fifth-container h4 {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 40px;
+        margin-top: 139px;
+    }
+    
+    .fifth-child {
+        background-color: red;
+        height: 500px;
+        width: 1200px;
+        border-radius: 7px;
+        align-items: center;
+        margin-top: 50px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .fifth-child button {
+        width: 180px;
+        height: 40px;
+        color: red;
+        margin-top: 60px;
+        border-radius: 5px;
+        font-size: 17px;
+        border: none;
+        font-weight: bold;
+    }
+    
+    .button-tag {
+        margin-top: 40px;
+        margin-left: 88px;
+    }
+    
+    .fifth-child p {
+        font-size: 200px;
+        align-items: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 45px;
+    }
+    
+    .sixth-container {
+        background-color: #e2e8f0;
+        height: 485px;
+    }
+    
+    .sixth-container h1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 120px;
+        font-size: 40px;
+    }
+    
+    .big-container {
+        background-color: white;
+        height: 320px;
+        width: 1257px;
+        margin-right: auto;
+        justify-content: center;
+        margin-left: auto;
+        border-radius: 10px;
+        margin-top: 102px;
+    }
+    
+    .sixth-child {
+        display: flex;
+    }
+    
+    .sixth-child img {
+        margin-bottom: 70px;
+        height: 297px;
+        margin-left: 213px;
+    }
+    
+    .sixth-child p {
+        font-size: 45px;
+        display: flex;
+        font-size: 36px;
+        margin-top: 56px;
+        font-weight: bold;
+    }
+    
+    .grand-sixth-child p {
+        margin-top: 20px;
+        height: 39px;
+        font-weight: bold;
+    }
+    
+    .grand-sixth-child img {
+        height: 40px;
+        border-radius: 7px;
+        background-color: red;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .grand-sixth-child button {
+        margin-top: 92px;
+        width: 167px;
+        height: 40px;
+        border: none;
+        border-radius: 7px;
+        background-color: red;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .seventh-container {
+        background-color: black;
+        display: flex;
+        height: 350px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .seventh-child {
+        font-size: 25px;
+    }
+    
+    .seventh-child-container {
+        margin-right: 3rem;
+    }
+    
+    .seventh-child p {
+        color: white;
+    }
+    
+    .seventh-child a {
+        display: flex;
+    }
+    
+    .seventh-child a img {
+        margin-right: 2rem;
+    }
+    
+    .seventh-child-container p {
+        display: flex;
+        /* margin-left: 300px;
+        margin-top: 10px; */
+    }
